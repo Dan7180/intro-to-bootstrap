@@ -38,15 +38,22 @@
 		<header class="jumbotron row-header">
 			<div class="container">
 				<div class="row">
-					<div class="col-12 col-sm-6">
+					<div class="col-12 col-sm-5">
 						<h1>Ristorante con Fusion</h1>
 						<p>
 							We take inspiration from the World's best cuisines, and create a unique fusion
 							experience. Our lipsmacking creations will tickle your culinary senses!
 						</p>
 					</div>
-					<div class="col-12 col-sm align-self-center">
-						<img src="./image/logo.png" class="img-fluid" alt="logo">
+					<div class="col-12 col-sm">
+						<div class="row align-items-center">
+							<div class="col-12 offset-sm-1 col-sm-4">
+								<img src="./image/logo.png" class="img-fluid align-self-center" alt="logo">
+							</div>
+							<div class="col-12 col-sm ">
+								<a href="#Reservations" role="button" class="btn btn-warning pl-5 pr-5 pt-2"><strong>Reserve Table</strong></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -84,7 +91,10 @@
 					<div class="media">
 						
 						<div class="media-body">
-							<h2>Weekend Grand Buffet</h2>
+							<h2>
+								Weekend Grand Buffet
+								<span class="badge badge-danger">NEW</span>
+							</h2>
 							<p class="d-none d-sm-block">
 								Featuring mouthwatering combinations with a choice of five different salads, six
 								enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly
@@ -112,6 +122,77 @@
 								closely with whos-who in the culinary world, he specializes in creating mouthwatering
 								Indo-Italian fusion experiences.
 							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-content align-items-center justify-content-center" id="Reservations">
+				<div class="col-12 col-md-8 ">
+					<div class="card" >
+						<h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+						<div class="card-body">
+							<form>
+								<div class="form-group row">
+									<div class="col-12 col-md-3 ml-3">
+										<label class="form-check-label" for="Guests">
+											<h4>Number of Guests</h4>
+										</label>
+									</div>
+									<div class="col-12 col-md-6">
+										<div class="form-check form-check-inline align-items-center mr-3">
+											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="Guests" value="option1">
+											<label class="form-check-label" for="inlineRadio1"><h5>1</h5></label>
+										</div>
+										<div class="form-check form-check-inline align-items-center mr-3">
+											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="Guests" value="option1">
+											<label class="form-check-label" for="inlineRadio1"><h5>2</h5></label>
+										</div>
+										<div class="form-check form-check-inline align-items-center mr-3">
+											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="Guests" value="option1">
+											<label class="form-check-label" for="inlineRadio1"><h5>3</h5></label>
+										</div>
+										<div class="form-check form-check-inline align-items-center mr-3">
+											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="Guests" value="option1">
+											<label class="form-check-label" for="inlineRadio1"><h5>4</h5></label>
+										</div>
+										<div class="form-check form-check-inline align-items-center mr-3">
+											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="Guests" value="option1">
+											<label class="form-check-label" for="inlineRadio1"><h5>5</h5></label>
+										</div>
+										<div class="form-check form-check-inline align-items-center mr-3">
+											<input class="form-check-input" type="radio" name="inlineRadioOptions" id="Guests" value="option1">
+											<label class="form-check-label" for="inlineRadio1"><h5>6</h5></label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="row">
+										<div class="col-12">
+											<div class="row">
+												<div class="col-12 col-md-3 ml-3">
+													<label class="form-check-label" for="Guests">
+														<h4>Date and Time</h4>
+													</label>
+												</div>
+												<div class="col-12 col-md-8 ">
+													<div class="row align-items-center">
+														<div class="col-12 col-md-6">
+															<input type="text" class="form-control"  placeholder="Date">
+														</div>
+														<div class="col-12 col-md-6">
+															<input type="text" class="form-control mt-1" placeholder="Time">
+														</div>
+														<div class="col-12">
+															<button type="submit" class="btn btn-primary mt-2"><h4>Reserve</h4></button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
